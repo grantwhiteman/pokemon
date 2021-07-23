@@ -1,38 +1,168 @@
-.App {
+body {
   text-align: center;
+  background-color: grey;
+}
+ol {
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr.solid {
+  border-top: 3px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#abilities {
+  text-align: center;
+  font-size: medium;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ability {
+  font-size: small;
+}
+input {
+  color: #444444;
+  background: #F3F3F3;
+  border: 1px #DADADA solid;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 9pt;
+  outline: none;
+}
+button {
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
+#Card {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: black;
+  border-radius: 50px;
+  width: 300px
+}
+
+.image {
+  height: 100px;
+
+}
+
+p {
+  text-align: left;
+  margin-left: 50px;
+}
+
+#ID {
+  margin-left: 50px;
+}
+
+.normal {
+	background-color: #A8A878;
+	border: 5px solid #6D6D4E;
+}
+
+.fire {
+	background-color: #F08030;
+	border: 5px solid #9C531F;
+}
+
+.water {
+	background-color: #6890F0;
+	border: 5px solid #445E9C;
+}
+
+.electric {
+	background-color: #F8D030;
+	border: 5px solid #A1871F;
+}
+
+.grass {
+	background-color: #78C850;
+	border: 5px solid #4E8234;
+}
+
+.ice {
+	background-color: #98D8D8;
+	border: 5px solid #638D8D;
+}
+
+.ground {
+	background-color: #E0C068;
+	border: 5px solid #927D44;
+}
+
+.flying {
+	background-color: #A890F0;
+	border: 5px solid #6D5E9C;
+}
+
+.ghost {
+	background-color: #705898;
+	border: 5px solid #493963;
+}
+
+.rock {
+	background-color: #B8A038;
+	border: 5px solid #786824;
+}
+
+.fighting {
+	background-color: #C03028;
+	border: 5px solid #7D1F1A;
+}
+
+.poison {
+	background-color: #A040A0;
+	border: 5px solid #682A68;
+}
+
+.psychic {
+	background-color: #F85888;
+	border: 5px solid #A13959;
+}
+
+.bug {
+	background-color: #A8B820;
+	border: 5px solid #6D7815;
+}
+
+.dark {
+	background-color: #705848;
+	border: 5px solid #49392F;
+}
+
+.steel {
+	background-color: #B8B8D0;
+	border: 5px solid #787887;
+}
+
+.dragon {
+	background-color: #7038F8;
+	border: 5px solid #4924A1;
+}
+
+.fairy {
+	background-color: #9b3384;
+	border: 5px solid #81149c;
 }
